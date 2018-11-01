@@ -1,0 +1,283 @@
+---------------------------------------------------------------
+[ 2018-10-11T16:48:58+08:00 ] 0.0.0.0 GET /blog_all/public/
+[ info ] localhost/blog_all/public/ [运行时间：0.492510s][吞吐率：2.03req/s] [内存消耗：342.23kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T16:49:03+08:00 ] 0.0.0.0 GET /blog_all/public/admin/login
+[ info ] localhost/blog_all/public/admin/login [运行时间：0.225662s][吞吐率：4.43req/s] [内存消耗：483.52kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'Index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=41q8eab7o92bsntba9b0qo1kgq; YII_CSRF_TOKEN=M3BPRDZxZFVPQXVzQ2d5WGFVNlhWXzNXeDcyU3poWVf_p2kyipcxFaeouTXtuGN8GpN3KZLmXibL8BMyInwLmA%3D%3D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->Index[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\blog_all\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T16:49:03+08:00 ] 0.0.0.0 GET /blog_all/public/captcha.html
+[ info ] localhost/blog_all/public/captcha.html [运行时间：0.045343s][吞吐率：22.05req/s] [内存消耗：379.02kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'captcha',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/blog_all/public/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=41q8eab7o92bsntba9b0qo1kgq; YII_CSRF_TOKEN=M3BPRDZxZFVPQXVzQ2d5WGFVNlhWXzNXeDcyU3poWVf_p2kyipcxFaeouTXtuGN8GpN3KZLmXibL8BMyInwLmA%3D%3D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T16:49:10+08:00 ] 0.0.0.0 GET /blog_all/public/captcha.html?0.8827704362989159
+[ info ] localhost/blog_all/public/captcha.html?0.8827704362989159 [运行时间：0.026698s][吞吐率：37.46req/s] [内存消耗：379.02kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'captcha',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/blog_all/public/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=41q8eab7o92bsntba9b0qo1kgq; YII_CSRF_TOKEN=M3BPRDZxZFVPQXVzQ2d5WGFVNlhWXzNXeDcyU3poWVf_p2kyipcxFaeouTXtuGN8GpN3KZLmXibL8BMyInwLmA%3D%3D; Hm_lvt_080836300300be57b7f34f4b3e97d911=1539247744; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1539247744',
+)
+[ info ] [ PARAM ] array (
+  '0_8827704362989159' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T16:49:17+08:00 ] 0.0.0.0 POST /blog_all/public/admin/login.html
+[ info ] localhost/blog_all/public/admin/login.html [运行时间：0.166638s][吞吐率：6.00req/s] [内存消耗：652.15kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'Index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '91',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/blog_all/public/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=41q8eab7o92bsntba9b0qo1kgq; YII_CSRF_TOKEN=M3BPRDZxZFVPQXVzQ2d5WGFVNlhWXzNXeDcyU3poWVf_p2kyipcxFaeouTXtuGN8GpN3KZLmXibL8BMyInwLmA%3D%3D; Hm_lvt_080836300300be57b7f34f4b3e97d911=1539247744; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1539247744',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '18952b71f0683983749f2a797333a243',
+  'username' => 'baiminghao',
+  'password' => '123456',
+  'captcha' => 'nyf8',
+)
+[ info ] [ RUN ] app\admin\controller\Login->Index[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014523s ] mysql:host=127.0.0.1;dbname=blog;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.blog_admin' doesn't exist[D:\wamp\www\blog_all\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-10-11T17:44:43+08:00 ] 0.0.0.0 GET /blog_all/public/
+[ info ] localhost/blog_all/public/ [运行时间：0.508962s][吞吐率：1.96req/s] [内存消耗：342.13kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T17:44:46+08:00 ] 0.0.0.0 GET /blog_all/public/admin/login
+[ info ] localhost/blog_all/public/admin/login [运行时间：0.170974s][吞吐率：5.85req/s] [内存消耗：324.19kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'Index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1539247744',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->Index[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\blog_all\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T17:44:46+08:00 ] 0.0.0.0 GET /blog_all/public/captcha.html
+[ info ] localhost/blog_all/public/captcha.html [运行时间：0.048061s][吞吐率：20.81req/s] [内存消耗：304.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'captcha',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/blog_all/public/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1539247744; PHPSESSID=m5m16ap3g8u1ct0ufvdcu09oab',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T17:44:54+08:00 ] 0.0.0.0 POST /blog_all/public/admin/login.html
+[ info ] localhost/blog_all/public/admin/login.html [运行时间：0.116439s][吞吐率：8.59req/s] [内存消耗：545.18kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\blog_all\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Login',
+    2 => 'Index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '91',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/blog_all/public/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=m5m16ap3g8u1ct0ufvdcu09oab; Hm_lvt_080836300300be57b7f34f4b3e97d911=1539247744,1539251087; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1539251087',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '496455c5cb18147719749a7a3e6fac48',
+  'username' => 'baiminghao',
+  'password' => '123456',
+  'captcha' => 'x6er',
+)
+[ info ] [ RUN ] app\admin\controller\Login->Index[ D:\wamp\www\blog_all\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'blog'[D:\wamp\www\blog_all\thinkphp\library\think\db\Connection.php:295]
